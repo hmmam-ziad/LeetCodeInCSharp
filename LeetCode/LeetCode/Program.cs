@@ -1,5 +1,7 @@
-﻿using LeetCode.Container_with_most_water;
+﻿using LeetCode.Two_Sum;
 
 Solution solution = new Solution();
-int[] arr = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-Console.WriteLine(solution.MaxArea(arr));
+int[] nums = { 3, 3 };
+int target = 6;
+int[] sum = solution.TwoSum(nums, target);
+Console.WriteLine($"[{sum[0]}, {sum[1]}]");
