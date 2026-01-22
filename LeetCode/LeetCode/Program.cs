@@ -1,7 +1,9 @@
-﻿using LeetCode.Two_Sum;
+﻿
+using LeetCode.Valid_Mountain_Array;
 
 Solution solution = new Solution();
-int[] nums = { 3, 3 };
-int target = 6;
-int[] sum = solution.TwoSum(nums, target);
-Console.WriteLine($"[{sum[0]}, {sum[1]}]");
+int[] arr = { 0, 3, 2, 1 };
+if (solution.ValidMountainArray(arr))
+    Console.WriteLine("Its a mountain array");
+else
+    Console.WriteLine("Its not a mountain array");
