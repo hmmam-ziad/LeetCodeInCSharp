@@ -1,4 +1,4 @@
 .vs/
-bin/
-obj/
-LeetCode.csproj
+LeetCode/bin/
+LeetCode/obj/
+LeetCode/LeetCode.csproj
