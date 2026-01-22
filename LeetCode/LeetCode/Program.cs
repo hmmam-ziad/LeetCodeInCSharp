@@ -1,9 +1,5 @@
-﻿
-using LeetCode.Valid_Mountain_Array;
+﻿using LeetCode.Boats_to_Save_People;
 
 Solution solution = new Solution();
-int[] arr = { 0, 3, 2, 1 };
-if (solution.ValidMountainArray(arr))
-    Console.WriteLine("Its a mountain array");
-else
-    Console.WriteLine("Its not a mountain array");
+int[] p = { 3, 5, 3, 4 };
+Console.WriteLine(solution.NumRescueBoats(p, 5));
