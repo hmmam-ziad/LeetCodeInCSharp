@@ -1,5 +1,10 @@
-﻿using LeetCode.Boats_to_Save_People;
+﻿using LeetCode.Move_Zeroes;
 
 Solution solution = new Solution();
-int[] p = { 3, 5, 3, 4 };
-Console.WriteLine(solution.NumRescueBoats(p, 5));
+int[] nums = { 0, 1, 0, 3, 12 };
+solution.MoveZeroes(nums);
+
+foreach (int x in nums)
+{
+    Console.Write($"{x}, ");
+}
