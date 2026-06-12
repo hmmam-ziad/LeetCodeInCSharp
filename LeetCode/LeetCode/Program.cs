@@ -1,10 +1,7 @@
-﻿using LeetCode.Move_Zeroes;
+﻿
+
+using LeetCode.Revers_Nums;
 
 Solution solution = new Solution();
-int[] nums = { 0, 1, 0, 3, 12 };
-solution.MoveZeroes(nums);
 
-foreach (int x in nums)
-{
-    Console.Write($"{x}, ");
-}
+Console.WriteLine(string.Join(", ", solution.ReverseArr(new int[] { 1, 2, 3, 4, 5 })));

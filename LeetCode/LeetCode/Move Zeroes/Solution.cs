@@ -6,25 +6,24 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Move_Zeroes
 {
+    /// <summary>
+    /// https://leetcode.com/problems/move-zeroes/description/
+    /// </summary>
     public class Solution
     {
         public void MoveZeroes(int[] nums)
         {
-            int i = 0, j, temp ;
-            while (i < nums.Length)
+            int temp = 0;
+            int k = 0;
+            for (int i = 0; i <= nums.Length - 1; i++)
             {
-                j = 0;
-                while (j < nums.Length - 1)
+                if (nums[i] != 0)
                 {
-                    if (nums[j] == 0)
-                    {
-                        temp = nums[j];
-                        nums[j] = nums[j + 1];
-                        nums[j + 1] = temp;
-                    }
-                    j++;
+                    temp = nums[k];
+                    nums[k] = nums[i];
+                    nums[i] = temp;
+                    k++;
                 }
-                i++;
             }
         }
 
