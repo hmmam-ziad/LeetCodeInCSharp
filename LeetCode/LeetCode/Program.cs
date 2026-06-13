@@ -1,13 +1,7 @@
 ﻿
 
-using LeetCode.Rotate_Array;
+using LeetCode.Single_Number;
 
 Solution solution = new Solution();
-int[] nums = { -1, -100, 3, 99 };
-solution.Rotate(nums, 2);
-foreach (int num in nums)
-{
-    Console.Write(num);
-    Console.Write(" ");
-
-}
+int[] nums = { 4, 1, 2, 1, 2 };
+Console.WriteLine(solution.SingleNumber(nums));
