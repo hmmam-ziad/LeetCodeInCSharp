@@ -1,7 +1,8 @@
 ﻿
 
-using LeetCode.Majority_Element;
+using LeetCode.Sort_Colors;
 
 Solution solution = new Solution();
-int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
-Console.WriteLine(solution.MajorityElement(nums));
+int[] nums = { 2, 0, 2, 1, 1, 0 };
+solution.SortColors(nums);
+Console.WriteLine(string.Join(", ", nums));
