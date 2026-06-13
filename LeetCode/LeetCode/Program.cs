@@ -1,7 +1,7 @@
 ﻿
 
-using LeetCode.Missing_Number;
+using LeetCode.Majority_Element;
 
 Solution solution = new Solution();
-int[] nums = { 9, 6, 4, 2, 3, 5, 7, 0, 1 };
-Console.WriteLine(solution.MissingNumber(nums));
+int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
+Console.WriteLine(solution.MajorityElement(nums));
