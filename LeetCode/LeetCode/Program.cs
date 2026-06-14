@@ -1,10 +1,10 @@
 ﻿
 
-using LeetCode.Pascals_Traiangle;
+using LeetCode.Intersection_of_Two_Arrays_II;
 Solution solution = new Solution();
-IList<IList<int>> triangle = solution.Generate(5);
+var result = solution.Intersect(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 });
 
-foreach (var row in triangle)
+foreach (var num in result)
 {
-    Console.WriteLine(string.Join(", ", row));
+    Console.WriteLine(string.Join(", ", num));
 }
