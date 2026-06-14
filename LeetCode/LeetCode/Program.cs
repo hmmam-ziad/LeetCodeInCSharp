@@ -1,8 +1,6 @@
 ﻿
 
-using LeetCode.Sort_Colors;
+using LeetCode.Subarray_Sum_Equals_K;
 
 Solution solution = new Solution();
-int[] nums = { 2, 0, 2, 1, 1, 0 };
-solution.SortColors(nums);
-Console.WriteLine(string.Join(", ", nums));
+Console.WriteLine(solution.SubarraySum(new int[] { 1, 1, 1 }, 2));
