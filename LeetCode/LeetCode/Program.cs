@@ -1,6 +1,6 @@
 ﻿
 
-using LeetCode.Subarray_Sum_Equals_K;
+using LeetCode.Fizz_Buzz;
 
 Solution solution = new Solution();
-Console.WriteLine(solution.SubarraySum(new int[] { 1, 1, 1 }, 2));
+Console.WriteLine(string.Join(", ", solution.FizzBuzz(100)));
