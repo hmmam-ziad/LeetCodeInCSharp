@@ -1,6 +1,10 @@
 ﻿
 
-using LeetCode.Plus_One;
-
+using LeetCode.Pascals_Traiangle;
 Solution solution = new Solution();
-Console.WriteLine(string.Join(", ", solution.PlusOne(new int[] { 9, 9, 9 })));
+IList<IList<int>> triangle = solution.Generate(5);
+
+foreach (var row in triangle)
+{
+    Console.WriteLine(string.Join(", ", row));
+}
