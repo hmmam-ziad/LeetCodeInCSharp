@@ -27,12 +27,6 @@ namespace LeetCode.Intersection_of_Two_Arrays_II
                 {
                     map.Add(nums1[i], 1);
                 }
-
-                //if (map.ContainsKey(nums2[i - 1]) && map[nums2[i - 1]] > 0)
-                //{
-                //    result[j++] = nums2[i];
-                //    map[nums2[i]]--;
-                //}
             }
 
             while (j < nums2.Length)
