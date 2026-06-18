@@ -1,6 +1,6 @@
 ﻿
 
-using LeetCode.Two_Sum_Boolean;
+using LeetCode.The_Difference_Between_Max_And_Min;
 Solution solution = new Solution();
-var count = solution.TwoSum(new int[] { 3, 2, 4 }, 6);
+var count = solution.Differnce(new int[] { 3, 2, 4 });
 Console.WriteLine(count);
