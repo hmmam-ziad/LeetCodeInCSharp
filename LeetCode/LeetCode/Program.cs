@@ -1,6 +1,6 @@
 ﻿
 
-using LeetCode.Count_Odd_And_Even_In_Tuble;
+using LeetCode.Three_Number_Same;
 Solution solution = new Solution();
-var count = solution.CountOddAndEven(new int[] { 1, 2, 3, 2, 1 });
+var count = solution.IsThreeNumSame(new int[] { 1, 2, 2, 3 });
 Console.WriteLine(count);
