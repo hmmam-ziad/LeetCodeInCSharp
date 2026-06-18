@@ -1,5 +1,6 @@
 ﻿
 
-using LeetCode.Palindrome_Nums;
+using LeetCode.Count_Odd_And_Even_In_Tuble;
 Solution solution = new Solution();
-Console.WriteLine(solution.PalindromeNums(new int[] { 1, 2, 3, 2, 1, 3 }));
+var count = solution.CountOddAndEven(new int[] { 1, 2, 3, 2, 1 });
+Console.WriteLine(count);
