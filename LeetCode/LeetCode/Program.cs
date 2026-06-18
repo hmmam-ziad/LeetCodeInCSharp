@@ -1,11 +1,5 @@
 ﻿
 
-using LeetCode.Replace_Elements_with_Greatest_Element_on_Right_Side;
+using LeetCode.Palindrome_Nums;
 Solution solution = new Solution();
-int[] nums1 = new int[] { 1, 400, 2 };
-solution.ReplaceElements(nums1);
-
-Console.Write("[");
-Console.Write(string.Join(", ", nums1));
-
-Console.Write("]");
+Console.WriteLine(solution.PalindromeNums(new int[] { 1, 2, 3, 2, 1, 3 }));
