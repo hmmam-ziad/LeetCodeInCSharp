@@ -1,5 +1,5 @@
 ﻿
 
-using LeetCode.No_Repete;
+using LeetCode.Once_Element;
 Solution solution = new Solution();
-Console.WriteLine(solution.IsNotRepeted(new int[] { 1, 2, 3 }));
+Console.WriteLine(string.Join(", ", solution.OnceArr(new int[] { 1, 3, 2, 1 })));
