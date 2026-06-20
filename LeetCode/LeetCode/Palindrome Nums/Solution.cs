@@ -13,25 +13,13 @@ namespace LeetCode.Palindrome_Nums
     {
         public bool PalindromeNums(int[] nums)
         {
-            bool isPalindrome = false;
-
             int left = 0, right = nums.Length - 1;
-
             while (left < right)
             {
-                if (nums[left] == nums[right])
-                {
-                    isPalindrome = true;
-                }
-                else
-                {
-                    return false;
-                }
-                left++;
-                right--;
+                if (nums[left] != nums[right]) return false;
+                left++; right--;
             }
-
-            return isPalindrome;
+            return true;
         }
     }
 }
