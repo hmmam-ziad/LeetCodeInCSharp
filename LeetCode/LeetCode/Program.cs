@@ -1,10 +1,5 @@
 ﻿
 
-using LeetCode.the_Same_Num;
+using LeetCode.No_Repete;
 Solution solution = new Solution();
-var result = solution.SameArr(new int[] { 1, 1, 2, 2, 3 });
-foreach (var item in result)
-{
-    Console.Write(item);
-    Console.Write(", ");
-}
+Console.WriteLine(solution.IsNotRepeted(new int[] { 1, 2, 3 }));
