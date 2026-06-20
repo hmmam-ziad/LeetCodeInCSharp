@@ -1,6 +1,10 @@
 ﻿
 
-using LeetCode.The_Difference_Between_Max_And_Min;
+using LeetCode.the_Same_Num;
 Solution solution = new Solution();
-var count = solution.Differnce(new int[] { 3, 2, 4 });
-Console.WriteLine(count);
+var result = solution.SameArr(new int[] { 1, 1, 2, 2, 3 });
+foreach (var item in result)
+{
+    Console.Write(item);
+    Console.Write(", ");
+}
