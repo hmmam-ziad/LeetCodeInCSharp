@@ -1,5 +1,10 @@
 ﻿
 
-using LeetCode.Is_All_Nums_In_Str;
+using LeetCode.Uppercase_Letter_To_Lowercase;
 Solution solution = new Solution();
-Console.WriteLine(solution.IsAllNums("1234"));
+var s = solution.ToLowercase("HMMAM ZIAD");
+
+foreach(var letter in s)
+{
+    Console.WriteLine(letter);
+}
