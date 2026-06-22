@@ -1,5 +1,5 @@
 ﻿
 
-using LeetCode.First_Non_Repeating_Character;
+using LeetCode.Is_All_Nums_In_Str;
 Solution solution = new Solution();
-Console.WriteLine(solution.FirstNonRepetingCharacter("aabbc"));
+Console.WriteLine(solution.IsAllNums("1234"));
