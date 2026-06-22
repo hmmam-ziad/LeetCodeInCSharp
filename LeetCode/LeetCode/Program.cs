@@ -1,5 +1,5 @@
 ﻿
 
-using LeetCode.Palindrome_Str;
+using LeetCode.Count_Words;
 Solution solution = new Solution();
-Console.WriteLine(solution.IsPalindrome("hello"));
+Console.WriteLine(solution.CountWordsWithoutSpaces("hmmam          ziad"));
