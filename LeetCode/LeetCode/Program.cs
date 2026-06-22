@@ -1,5 +1,5 @@
 ﻿
 
-using LeetCode.String_Without_Spaces;
+using LeetCode.First_Non_Repeating_Character;
 Solution solution = new Solution();
-Console.WriteLine(solution.StringWithoutSpaces("hmmam          ziad"));
+Console.WriteLine(solution.FirstNonRepetingCharacter("aabbc"));
