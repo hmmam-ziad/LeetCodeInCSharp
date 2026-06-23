@@ -1,6 +1,6 @@
 ﻿
 
-using LeetCode.Reverses_Words;
+using LeetCode.Without_Duplicate_Characters;
 Solution solution = new Solution();
 
-Console.WriteLine(solution.ReverseWords("hmmam ziad"));
+Console.WriteLine(solution.WithoutDuplicates("aabbcc"));
