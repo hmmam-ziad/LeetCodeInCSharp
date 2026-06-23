@@ -1,6 +1,6 @@
 ﻿
 
-using LeetCode.Contains;
+using LeetCode.Most_Frequently_Occurring_Character;
 Solution solution = new Solution();
 
-Console.WriteLine(solution.Contains("hmmam", "hm"));
+Console.WriteLine(solution.MostChar("hmmamzzzzzzzzzzzzzzzzz"));
